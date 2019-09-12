@@ -15,3 +15,11 @@
     version: "{{ omero_omego_version }}"
     virtualenv: "{{ omero_common_basedir }}/omego"
     virtualenv_site_packages: true
+
+- name: omego | install future
+  become: true
+  pip:
+    name: future
+    state: present
+    virtualenv: "{{ omero_common_basedir }}/omego"
+    virtualenv_site_packages: true
