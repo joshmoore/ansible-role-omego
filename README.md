@@ -1,7 +1,7 @@
 OMEGO
 =====
 
-[![Build Status](https://travis-ci.org/ome/ansible-role-omego.svg)](https://travis-ci.org/ome/ansible-role-omego)
+[![Actions Status](https://github.com/ome/ansible-role-omego/workflows/Molecule/badge.svg)](https://github.com/ome/ansible-role-omego/actions)
 [![Ansible Role](https://img.shields.io/ansible/role/41043.svg)](https://galaxy.ansible.com/ome/omego/)
 
 
